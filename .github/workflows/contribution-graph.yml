@@ -1,0 +1,41 @@
+name: Weekly contribution graph
+
+on:
+  schedule:
+    - cron: "17 4 * * *"   # every day at 04:17 UTC
+  workflow_dispatch: {}      # lets you run it manually from the Actions tab
+  push:
+    branches: [ main ]       # optional: also regenerate on push to main
+
+permissions:
+  contents: write            # required so the job can commit the SVG back
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install beautifulsoup4
+
+      - name: Generate weekly contribution SVG
+        run: python .github/scripts/generate_contribution_bars.py "${{ github.repository_owner }}" weekly-contributions.svg
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git status --porcelain | grep -q weekly-contributions.svg; then
+            git add weekly-contributions.svg
+            git commit -m "chore: update weekly contribution graph"
+            git push
+          else
+            echo "No change in contribution graph."
+          fi
