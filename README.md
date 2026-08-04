@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/michkaroma">
-    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=FF0000&fontSize=54&height=90&width=634&text=Hello!%20I'm%20Michka" alt="Hello there! I'm Michka" />
+    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=FF0000&fontSize=54&height=90&width=634&text=Hello%20there!%20I'm%20Michka" alt="Hello there! I'm Michka" />
   </a>
 </p>
 
@@ -21,7 +21,7 @@
 **Languages**
 <p align="left">
   <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C" />
-  <img src="https://img.shields.io/badge/Assembly-6E4C13?style=for-the-badge&logo=assemblyscript&logoColor=white" alt="Assembly" />
+  <img src="https://img.shields.io/badge/Assembly-6E4C13?style=for-the-badge&logoColor=white" alt="Assembly" />
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
