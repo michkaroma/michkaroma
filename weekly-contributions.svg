@@ -1,6 +1,10 @@
 <svg viewBox="0 0 840 220" width="840" height="220" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Ubuntu, sans-serif" role="img" aria-label="Weekly GitHub contributions">
-<text x="8" y="14" font-size="12" fill="#8b949e">300 contributions · peak 81/week</text>
+<text x="8" y="14" font-size="12" fill="#8b949e">331 contributions · peak 81/week</text>
 <line x1="8" y1="194.0" x2="832" y2="194.0" stroke="#8b949e" stroke-width="1" stroke-opacity="0.35"/>
+<rect x="8.00" y="177.01" width="13.55" height="16.99" rx="1" fill="#FF0000" fill-opacity="1.0"><title>Week of 2025-11-16: 8</title></rect>
+<rect x="23.55" y="187.63" width="13.55" height="6.37" rx="1" fill="#FF0000" fill-opacity="1.0"><title>Week of 2025-11-23: 3</title></rect>
+<rect x="39.09" y="168.52" width="13.55" height="25.48" rx="1" fill="#FF0000" fill-opacity="1.0"><title>Week of 2025-11-30: 12</title></rect>
+<rect x="54.64" y="177.01" width="13.55" height="16.99" rx="1" fill="#FF0000" fill-opacity="1.0"><title>Week of 2025-12-07: 8</title></rect>
 <text x="54.64" y="212" font-size="10" fill="#8b949e">Dec</text>
 <text x="116.83" y="212" font-size="10" fill="#8b949e">Jan</text>
 <text x="179.02" y="212" font-size="10" fill="#8b949e">Feb</text>
